@@ -58,8 +58,8 @@ subtitle: Make an inference on your browser
 
             const MODEL = "{{site.baseurl}}/assets/js/pydnet.json"
             this.model = await tf.loadGraphModel(MODEL);
-            this.height = 384
-            this.width = 640
+            this.height = 768
+            this.width = 1280
             return this
         }
 
